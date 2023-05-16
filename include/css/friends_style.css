@@ -1,0 +1,66 @@
+@charset "utf-8";
+#friends{
+	width:280px;
+}
+#friends #search_people a{
+	background-color:#f6f6fe;
+	text-decoration: none;
+	color: #666;
+	padding-left: 0px;
+	font-size: 25px;
+}
+#friends #search_people a:hover{
+	background-color:white;
+	text-decoration: underline;
+	color: black;
+}
+#friends a{
+	text-decoration: none;
+	color: black;
+}
+#friends a .elem{
+	cursor: pointer, hand;
+	height: 1.1cm;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background:none;
+	border-bottom: 1px solid #949494;
+}
+#friends a:hover #elem{
+	background-color: #3eabfa;
+}
+
+#friends a .elem img{
+	width: 1cm;
+	height: 1cm;
+	float:left;
+	margin-left: 2px;
+	margin-top: 2px;
+	border: none;
+	background:none;
+}
+
+#friends a .elem #vr{
+	font-size: 1cm;
+	list-style: none;
+	padding-left: 0px;
+	float: left;
+	margin-top: -4px;
+	background:none;
+	color: #949494; 
+}
+#friends a .elem #usrname{
+	font-weight:bold;
+	font-size: 20px;
+	font-family: Sans Serif;
+	list-style: none;
+	background:none;
+	margin-top: 0px;
+}
+#friends a .elem #status{
+	list-style: none;
+	margin-top: 0px;
+	font-family: Sans Serif;
+	font-size: 14px;
+	background:none;
+}

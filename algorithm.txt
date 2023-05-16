@@ -1,0 +1,15 @@
+THE LAST PAGE
+-sets the user informations in database 'hazyna' in 'users' table
+	firstname   =set
+	lastname    =set
+	country     =set
+	mobilenumber=set
+	email       =set
+	password    =set
+	birthday    =set
+	gender		=set
+	prog language is set
+	table of friends_of_user the is set
+// in friends info...
+
+	

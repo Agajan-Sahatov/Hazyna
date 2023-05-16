@@ -1,0 +1,120 @@
+@charset "utf-8";
+li{
+	list-style: none;
+}
+form li{
+	padding-left: 15px;
+	
+}
+h3{
+	font-family: Times New Roman;
+	font-size: 30px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	background-color: #e3e3e3;
+	border-bottom: 1px solid grey;
+	border-radius: 10px 10px 0px 0px;
+	font-weight: normal;
+	text-align: center;
+}
+.main{
+	width: 10cm;
+	border: 1px solid black;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin:auto;
+	background-color: white;
+	box-shadow: 1px 1px 2px black;
+}
+.new_diary{
+	width: 10cm;
+	margin: auto;
+	margin-top: 0px;
+	border-bottom: 1px solid grey;
+}
+#new_event, #btn_save, #new_title, #new_date, #btn_delete{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#btn_save{
+	border: none;
+	width: 100px;
+	height: 35px;
+	margin-bottom: 10px;
+	background-color: #3cb0fd;
+	color: white;
+	font-size: 20px;
+}
+#new_title, #new_date{
+	width: 9cm;
+	height: 30px;
+	border: 1px solid grey;
+	font-size: 18px;
+	font-family: Tahoma;
+}
+#new_title:focus, #new_date:focus, #new_event:focus{
+	box-shadow: 1px 1px 5px 2px #068dd3;
+	border-color: #068dd3;
+	outline: none;
+}
+#new_title:hover, #new_date:hover, #new_event:hover, #btn_save:hover, #btn_delete:hover{
+	box-shadow: 1px 1px 5px 2px #068dd3;
+	border-color: blue;
+}
+#new_event{
+	width: 9cm;
+	height: 5cm;
+	max-width: 9cm;
+	max-height: 9cm;
+	font-size: 16px;
+	font-family: Tahoma;
+	border-color: grey;
+}
+form label{
+	font-weight: bold;
+}
+.diaries{
+	width: 10cm;
+	margin: 0px;
+	margin: auto;
+}
+.title{
+	width: 10cm;
+	background-color: #0089ed;
+	border-top: 1px solid black;
+	border-bottom: 1px solid grey;
+	margin-top: 0px;
+	border-radius: 2px 2px 5px 5px;
+}
+.title h2{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align:center;
+	font-family:  Times New Roman;
+	font-weight: bold;
+	color: white;
+}
+.events{
+	font-family: Times New Roman;
+	margin-left: 10px;
+}
+footer{
+	color: green;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 20px;
+	float: left;
+	margin-left: 10px;
+}
+#btn_delete{
+	border: none;
+	width: 100px;
+	height: 30px;
+	background-color: #0089ed;
+	color: white;
+	font-size: 20px;
+	float:right;
+	margin-right: 5px;
+}

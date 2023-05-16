@@ -1,0 +1,50 @@
+[
+	{
+	"language":"english",
+	"search":"Search",
+	"results":"Results",
+	"btn_send":"Send request for friendship",
+	"chat":"Chat",
+	"back":"Back",
+	"yourself_warner":"You cannot add yourself as a friend!",
+	"is_not_found":" is not found!!!",
+	"btn_accept":"Accept",
+	"btn_deny":"Deny"
+	},
+	{
+	"language":"türkmençe",
+	"search":"Gözle",
+	"results":"Netijeler",
+	"btn_send":"Dostlaşmagy teklip et",
+	"chat":"Gürleş",
+	"back":"Yza",
+	"yourself_warner":"Siz özüňizi dostlar sanawyna goşup bilmeýäňiz!",
+	"is_not_found":" tapylmady!!!",
+	"btn_accept":"Kabul et",
+	"btn_deny":"Ýüz döndür"
+	},
+	{
+	"language":"türkçe",
+	"search":"Ara",
+	"results":"Sonuçlar",
+	"btn_send":"Arkadaşlik teklifini gönder",
+	"chat":"Konuş",
+	"back":"Geri",
+	"yourself_warner":"Siz arkadaşlar listesine ekleyemezsiniz!",
+	"is_not_found":" bulunmadi!!!",
+	"btn_accept":"Kabül et",
+	"btn_deny":"Reddet"
+	},
+	{
+	"language":"русский",
+	"search":"Поиск",
+	"results":"",
+	"btn_send":"Отправит дружба",
+	"chat":"",
+	"back":"Назад",
+	"yourself_warner":"",
+	"is_not_found":" is not found!!!",
+	"btn_accept":"Accept",
+	"btn_deny":"Deny"
+	}
+]

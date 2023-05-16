@@ -1,0 +1,26 @@
+[
+	{
+	"language":"english",
+	"back":"Back",
+	"msg_type":"Type your message here...",
+	"send":"Send"
+	},
+	{
+	"language":"türkmençe",
+	"back":"Yza",
+	"msg_type":"Sms-i şu ýere ýazyň...",
+	"send":"Ugrat"
+	},
+	{
+	"language":"türkçe",
+	"back":"Geri",
+	"msg_type":"Mesajinizi buraya yazin...",
+	"send":"Gönder"
+	},
+	{
+	"language":"русский",
+	"back":"Назад",
+	"msg_type":"Sms-i şu ýere ýazyň...",
+	"send":"Отправит"
+	}
+]

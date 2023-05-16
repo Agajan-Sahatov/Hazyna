@@ -1,0 +1,79 @@
+@charset "utf-8";
+#profile{
+	width: 1000px;
+}
+#profile li{
+	list-style:none;
+}
+#profile ul{
+	padding-left: 0px;
+}
+#profile ul li{
+	display:inline;
+}
+
+#profile .inf_name{
+	margin-left:10px;
+	background-color:#e9e9fc;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: bold;
+	color: #666;
+	border: 0px;
+	
+}
+
+#profile .inf{
+	background-color:#f6f6fe;
+	font-size:22px;
+	cursor: hand;
+}
+#profile #imagefield{
+	height: 11cm;
+	width: 9cm;
+	float:left;
+}
+#profile hr{
+	width: 9cm;
+}
+#profile #image{
+	height: 10cm;
+	width: 9cm;
+	text-align: center;
+	color: red;
+	font-weight: bold;
+	border: 1px solid red;
+}
+#profile img{
+	height: 10cm;
+	width: 9cm;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+#profile #li_img a{
+	background-color: 0cf207;
+	padding-left: 0px;
+	text-decoration: none;
+	font-size: 16px;
+	color: blue;
+	margin-bottom: 0px;
+	border: 0px;
+}
+#profile #li_img a:hover{
+	text-decoration: underline;
+	color: #666;
+	background-color: #909393;
+}
+#profile .edit{
+	background-color: #f6f6fe;
+	font-size: 20px;
+	color: green;
+	text-decoration: underline;
+	cursor: hand;
+}
+#profile .edit:hover{
+	background-color: white;
+}
+#profile form{
+	display:none;
+}

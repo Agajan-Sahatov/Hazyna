@@ -1,0 +1,60 @@
+@charset "utf-8";
+body{
+	background-image: url(images/bg.jpg);
+	background-size: 1600px 700px;
+	background-repeat: repeat-y;
+	font-family: "Times New Roman";
+	}
+div{
+	margin: auto;
+	width: 290px;
+	text-align: center;
+	margin-top: 75px;
+}
+h1, p, a{
+	color:white;
+}
+
+.btn{
+	margin-top: 100px;
+	background-color: rgb(0,0,255);
+	border: 0px;
+	width: 270px;
+	height: 30px;
+	font-size: 12px;
+	color: white;
+}
+.txtbox{
+	width: 270px;
+	height: 25px;
+	margin-bottom: 0px;
+	border-width: 0px;
+	font-size: 17px;
+	background-color: white;
+}
+form hr{
+	margin-left: 8px;
+	margin-right: 9px;
+	margin-top: 0px;
+}
+.lblgender{
+	font-size:20px;
+}
+#Gender_0{
+	margin-left: 8px;
+}
+#Country{
+	width:270px;
+	height:30px;
+	margin-bottom:10px;
+}
+.SelectBirthday{
+	width:85px;
+	height:30px;
+}
+#status{
+	color:red;
+	list-style:none;
+	font-style:italic;
+	font-size:14px;
+}

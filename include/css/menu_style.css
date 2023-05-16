@@ -1,0 +1,127 @@
+@charset "utf-8";
+#lng{
+	display: none;
+}
+li{
+	list-style:none;
+}
+#btn_top{
+	margin-top: -8px;
+	margin-bottom: 0px;
+}
+#menu #btn{
+	cursor: pointer;
+	margin-bottom: 0px;
+	width: 50px;
+	height: 50px;
+	font-size: 15px;
+	text-align: center;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;
+	border: 1px solid white;
+	margin-left: -5px;
+}
+#triangle{
+	width: 25px;
+	height: 25px;
+	margin: 0px;
+}
+.menu #pagename{
+	margin: 0px;
+	font-weight: normal;
+	font-family: Century Gothic;
+	text-decoration: underline;
+}
+.icon{
+	width: 25px;
+	height: 25px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: -4px;
+}
+.vr{
+	height: 25px;
+	width: 2px;
+	padding-left: 5px;
+	padding-right: 1px;
+	margin-bottom: -3px;
+}
+#menu #menus{
+	margin-top: -25px;
+	display:none;
+	float:left;
+	width:310px;
+	background-color: #e9e9fc;
+	position: absolute;
+	border-radius: 25px 25px 25px 25px;
+}
+#menu  #profile_img{
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 5px;
+	height: 1.5cm;
+	width: 1.4cm;
+	border-radius: 5px 5px 5px 5px;
+	float:left;
+}
+#menu #menus #username{
+	margin-top: 10px;
+	margin-left: 8px;
+	font-size: 20px;
+	font-family: Sans Serif;
+	font-weight: bold;
+	padding-left:20px;
+	margin-bottom: 0px;
+}
+#menu #menus #userstatus{
+	font-size: 14px;
+	font-family: Times New Roman;
+}
+#menu .menuhr{
+	float:center;
+	width:250px;
+	padding-left: 0px;
+}
+#menu #menus a li{
+	list-style: none;
+	margin-bottom: 10px;
+	background: none;
+	display: inline;
+}
+#menu #menus ul{
+	padding-left:15px;
+}
+#menu #menus #items{
+	background-color:#e9e9fc;
+	padding-left: 0px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #666;
+	margin-bottom: 0px;
+	border: 0px;
+}
+#menu #menus #selected{
+	background-color: #e9e9fc;
+	padding-left: 0px;
+	font-weight: bold;
+	font-size: 25px;
+	color: #5ce610;
+	margin-bottom: 0px;
+	border: 0px;
+	text-decoration:none;
+}
+#menu #menus #selected li{
+	text-decoration: underline;
+}
+#menu #menus #selected:hover li, #menu #menus #selected:hover{
+	background-color: white;
+}
+#menu #menus #items:hover{
+	background-color: white;
+}
+#menu #menus #items:hover li{
+	text-decoration: underline;
+	color: black;
+	background-color: white;
+}

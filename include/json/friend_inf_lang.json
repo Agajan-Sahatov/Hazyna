@@ -1,0 +1,30 @@
+[
+	{
+	"language":"english",
+	"btn_chat":"Chat",
+	"btn_fav":"Add to favourites",
+	"btn_block":"Block",
+	"btn_delete":"Delete"
+	},
+	{
+	"language":"türkmençe",
+	"btn_chat":"Gürleş",
+	"btn_fav":"Halanýanlara goş",
+	"btn_block":"Blokla",
+	"btn_delete":"Poz"
+	},
+	{
+	"language":"türkçe",
+	"btn_chat":"Konuş",
+	"btn_fav":"Çok begenilenlere ekle",
+	"btn_block":"Engelle",
+	"btn_delete":"Sil"
+	},
+	{
+	"language":"русский",
+	"btn_chat":"Gürleş",
+	"btn_fav":"Halanýanlara goş",
+	"btn_block":"Blokla",
+	"btn_delete":"Poz"
+	}
+]

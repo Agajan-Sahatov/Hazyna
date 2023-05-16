@@ -1,0 +1,54 @@
+@charset "utf-8";
+#chatfield{
+	width:260px;
+}
+#chatfield a .elem {
+	cursor: pointer, hand;
+	height: 1.1cm;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #949494;
+}
+#chatfield a:hover #elem{
+	background-color: #3eabfa;
+}
+
+#chatfield a {
+	margin-top:0px;
+	text-decoration: none;
+	color: black;
+	background:none;
+}
+#chatfield a .elem  img{
+	width: 1cm;
+	height: 1cm;
+	float:left;
+	margin-left: 2px;
+	margin-top: 2px;
+	border: none;
+	background:none;
+}
+#chatfield a .elem #vr{
+	font-size: 1cm;
+	list-style: none;
+	padding-left: 0px;
+	float: left;
+	margin-top: -4px;
+	background:none;
+	color: #949494;
+}
+#chatfield a .elem #usrname{
+	font-weight:bold;
+	font-size: 20px;
+	font-family: Sans Serif;
+	list-style: none;
+	background:none;
+	margin-top: 0px;
+}
+#chatfield a .elem  #status{
+	list-style: none;
+	margin-top: 0px;
+	font-family: Sans Serif;
+	font-size: 14px;
+	background:none;
+}

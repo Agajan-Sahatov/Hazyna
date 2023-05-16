@@ -1,0 +1,153 @@
+@charset "utf-8";
+#back{
+	text-align: center;
+	background: none;
+	border: 1px solid #6a6a6a;
+	width: 394px;
+	height: 30px;
+	margin-left: 2px;
+	margin-top: -10px;
+	font-size: 25px;
+	color: black;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+#back_link{
+	text-decoration: none;
+	margin-left: -5px;
+	padding-left: -5px;
+}
+#back:hover{
+	cursor: hand;
+	-webkit-box-shadow: 1px 1px 5px black;
+	-moz-box-shadow:1px 1px 5px black;
+	box-shadow: 1px 1px 5px black;
+}
+#main{
+	margin: auto;
+	width: 400px;
+	min-height: 590px;
+	-webkit-box-shadow: 1px 1px 5px black;
+	-moz-box-shadow:1px 1px 5px black;
+	box-shadow: 1px 1px 5px black;
+	background-image:url(images/msgbg.jpg);
+	background-size: 1500px 700px;
+	margin-top: 5px;
+}
+#msgs{
+	margin-top: 10px;
+	width: 400px;
+	min-height: 590px;
+	
+	margin-bottom: -15px;
+}
+#dvform{
+	margin-top: 0px;
+	width: 395px;
+	height: 30px;
+	margin: auto;
+}
+#dvform form #msg_type{
+	margin-top: 0px;
+	font-weight: thin;
+	margin-bottom: 0px;
+	width: 320px;
+	height: 30px;
+	font-size: 20px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	border-width: -0px;
+	border: 1px solid #d3d3d3;
+}
+#dvform form #btn{
+	margin-top: -3px;
+	border:0px;
+	width: 70px;
+	height: 30px;
+	background-color: #1191ee;
+	font-size: 18px;
+	color: white;
+}
+#dvform form #btn:hover{
+	background-color: #187fca;
+	cursor: hand;
+}
+ul{
+	padding: 0px
+}
+li{
+	list-style: none;
+}
+
+.user_msg{
+	background-color: white;
+	text-align:center;
+	border: 2px solid #1191ee;
+	font-size: 18px;
+	border-radius: 20px 20px 0px 20px;
+	-webkit-border-radius: 20px 20px 0px 20px;
+	-moz-border-radius: 20px 20px 0px 20px;
+	width: 275px;
+	margin-left:85px;
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0, .3);
+	-moz-box-shadow: 0 0 5px rgba(0,0,0, .3);
+	box-shadow: 0 0 5px rgba(0,0,0, .3);
+}
+.friend_msg{
+	text-align:left;
+	background-color: white;
+	border: 2px solid springgreen;
+	font-size: 18px;
+	border-radius: 0px 20px 20px 20px;
+	-webkit-border-radius: 0px 20px 20px 20px;
+	-moz-border-radius: 0px 20px 20px 20px;
+	width: 275px;
+	margin-left: 32px;
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0, .3);
+	-moz-box-shadow: 0 0 5px rgba(0,0,0, .3);
+	box-shadow: 0 0 5px rgba(0,0,0, .3);
+}
+.spc{
+	margin: 5px;
+}
+.user_img1{
+	margin-top: -10px;
+	height: 0.8cm;
+	width: 0.8cm;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;
+	//border: 1px solid #1191ee;
+}
+.friend_img1{
+	float:left;
+	margin-top: -15px;
+	height: 0.8cm;
+	width: 0.8cm;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;	
+	//border: 1px solid springgreen;
+}
+.user_img2{
+	margin-top: 5px;
+	height: 0.8cm;
+	width: 0.8cm;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;
+	//border: 1px solid #1191ee;
+}
+.friend_img2{
+	float:left;
+	margin-top: -15px;
+	height: 0.8cm;
+	width: 0.8cm;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;
+	//border: 1px solid springgreen;
+	
+}
